@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class ArrayListExample {
 
     public static void main(String[] arguments) {
+
         ArrayList<String> strings = new ArrayList<String>();
         strings.add("Evan");
         strings.add("Eugene");

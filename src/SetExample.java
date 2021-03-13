@@ -3,6 +3,7 @@ import java.util.TreeSet;
 class SetExample {
 
     public static void main(String[] arguments) {
+
         TreeSet<String> strings = new TreeSet<String>();
         strings.add("Evan");
         strings.add("Eugene");
