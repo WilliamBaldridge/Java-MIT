@@ -1,4 +1,6 @@
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 class Marathon {
@@ -41,14 +43,34 @@ class Marathon {
 
         System.out.println(marathonResults.size());
         System.out.println(marathonResults.keySet());
-        System.out.println(marathonResults.entrySet());
+//        System.out.println(marathonResults.entrySet());
 
-        for (Map.Entry<String, Integer> competitors: marathonResults.entrySet()) {
-//            System.out.println(competitors);
-            if (competitors.getValue() < competitors.getValue()) {
-                System.out.println(competitors.getKey());
-            }
-        }
+//        Integer time = 0;
+//
+//        marathonResults.forEach(
+//                (key, value)
+//                        -> {
+//                    if (value == null) {
+//                        System.out.println("Unfinished");
+//                    } else {
+//                        Integer lowerTime = value < time ? value : time;
+////                        time = lowerTime;
+//                    }
+//                });
+
+        Integer lowestValue = Collections.min(marathonResults.values());
+        System.out.println(lowestValue);
+
+//        for (Map.Entry<String, Integer> new_Map : marathonResults.entrySet()) {
+//
+//           if (new_Map.getValue() < new_Map.getValue()) {
+//               System.out.println(new_Map.getValue());
+//           }
+//        }
+
+
+
+
 
 
 
