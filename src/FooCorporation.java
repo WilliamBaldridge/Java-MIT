@@ -11,6 +11,7 @@ public class FooCorporation {
         } else {
 
             double overtimeHours = 0;
+
             if (hours > 40) {
                 overtimeHours = hours - 40;
                 hours = 40;
