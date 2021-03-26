@@ -101,4 +101,6 @@ public class SimpleDraw extends JPanel implements Runnable {
 
         frame.setVisible(true);
     }
+
+
 }
